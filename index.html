@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BobiForge Pomodoro — Gamified Focus Timer</title>
+  <meta name="description" content="BobiForge Pomodoro is a gamified focus timer that turns deep work into a habit. Earn XP, build streaks, unlock achievements. Free on Android." />
+  <meta property="og:title" content="BobiForge Pomodoro — Gamified Focus Timer" />
+  <meta property="og:description" content="Run Pomodoro sessions, earn XP, build daily streaks, and beat procrastination. Free on Google Play." />
+  <meta property="og:type" content="website" />
+  <style>
+    :root {
+      --tomato: #e2473b;
+      --tomato-dark: #c23a30;
+      --ink: #1f2330;
+      --muted: #5b6173;
+      --bg: #fff7f4;
+      --card: #ffffff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 64px 24px 80px; }
+    header { text-align: center; margin-bottom: 48px; }
+    .logo { font-size: 56px; line-height: 1; }
+    h1 { font-size: 2.4rem; margin: 16px 0 8px; letter-spacing: -0.02em; }
+    .tagline { font-size: 1.2rem; color: var(--muted); margin-bottom: 28px; }
+    .cta {
+      display: inline-block; background: var(--tomato); color: #fff;
+      text-decoration: none; font-weight: 600; padding: 14px 28px;
+      border-radius: 12px; transition: background .15s ease;
+    }
+    .cta:hover { background: var(--tomato-dark); }
+    section { background: var(--card); border-radius: 16px; padding: 32px; margin-bottom: 24px;
+      box-shadow: 0 1px 3px rgba(30,35,48,.06), 0 8px 24px rgba(226,71,59,.05); }
+    h2 { font-size: 1.4rem; margin-bottom: 16px; letter-spacing: -0.01em; }
+    p { color: var(--muted); margin-bottom: 12px; }
+    ul.features { list-style: none; display: grid; gap: 12px; }
+    ul.features li { display: flex; gap: 12px; align-items: flex-start; color: var(--ink); }
+    ul.features .ico { font-size: 1.3rem; line-height: 1.4; }
+    .badge-box { text-align: center; }
+    footer { text-align: center; color: var(--muted); font-size: .9rem; margin-top: 40px; }
+    a { color: var(--tomato-dark); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">🍅</div>
+      <h1>BobiForge Pomodoro</h1>
+      <p class="tagline">The gamified Pomodoro timer that turns focus into streaks.</p>
+      <a class="cta" href="https://play.google.com/store/apps/details?id=com.bobiforge.bobiforge_pomodoro">Get it on Google Play</a>
+    </header>
+
+    <section>
+      <h2>Make focus a habit you actually keep</h2>
+      <p>
+        BobiForge Pomodoro turns the classic Pomodoro technique into a focus game you'll
+        come back to every day. Run focus sessions, earn XP, level up, and build daily
+        streaks — protected by streak freezes and a repair window, so one off day won't
+        break your momentum.
+      </p>
+    </section>
+
+    <section>
+      <h2>Features</h2>
+      <ul class="features">
+        <li><span class="ico">🍅</span><span><strong>Pomodoro timer</strong> — focus sessions with short and long breaks.</span></li>
+        <li><span class="ico">⭐</span><span><strong>XP &amp; levels</strong> — turn focused minutes into visible progress.</span></li>
+        <li><span class="ico">🔥</span><span><strong>Streaks with protection</strong> — streak freeze and a repair window keep your streak alive.</span></li>
+        <li><span class="ico">🏆</span><span><strong>Achievements</strong> — dozens of goals to unlock.</span></li>
+        <li><span class="ico">🎯</span><span><strong>Weekly challenges</strong> — fresh objectives every week.</span></li>
+        <li><span class="ico">🌍</span><span><strong>6 languages</strong> — English, Polish, Spanish, Portuguese (BR), German, French.</span></li>
+        <li><span class="ico">📴</span><span><strong>Offline &amp; private</strong> — no account, no sign-up, data stays on your device.</span></li>
+        <li><span class="ico">🆓</span><span><strong>Free</strong> to use.</span></li>
+      </ul>
+    </section>
+
+    <section class="badge-box">
+      <h2>Featured on</h2>
+      <!-- ===== MICROLAUNCH BADGE — PASTE EMBED CODE BELOW ===== -->
+      <!-- Replace this comment block with the badge snippet from MicroLaunch -->
+      <p><em>MicroLaunch badge goes here.</em></p>
+      <!-- ===== END MICROLAUNCH BADGE ===== -->
+    </section>
+
+    <footer>
+      <p>Made by BobiForge · <a href="https://play.google.com/store/apps/details?id=com.bobiforge.bobiforge_pomodoro">Google Play</a></p>
+    </footer>
+  </div>
+</body>
+</html>
